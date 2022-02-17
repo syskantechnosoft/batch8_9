@@ -1,0 +1,59 @@
+Docker - Docker Containerization tool
+
+Containers - 
+
+Virtual Machine (VM) 
+
+Dual booting (Share the partition)
+One partition - windows
+another partition - linux 
+
+Installing with the help of vmware.
+
+Virtualization (hyper-v) 
+
+
+VM is also heavy weight 
+
+
+Docker is a devops tool. 
+
+Docker Image - All the source code + Lib + other dependencies including the env variable
+
+Docker container - 
+
+WSL - Windows Sub System for Linux
+
+
+Docker Installation
+
+Accessing Docker
+1) By using the Command prompt (CLI)
+2) By Using the docker desktop dashboard (GUI)
+
+
+docker -v == Display docker version 
+
+docker images = List all the images 
+
+Step 1: Cloning
+
+
+
+Step 2: Building
+cd getting-started
+
+docker build -t docker101tutorial .
+
+Step 3: 
+
+docker run -d -p 80:80 --name docker-tutorial docker101tutorial
+
+
+
+https://www.javatpoint.com/docker-java-example 
+
+
+docker build -t java-app .    
+
+ docker run java-app  

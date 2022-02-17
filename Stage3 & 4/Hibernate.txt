@@ -1,0 +1,20 @@
+Hibernate is a JPA Implementation
+It is a ORM Framework
+
+ORM - Object Relational Mapping
+
+Object - JAVA
+Relational - RDBMS
+
+OXM - Object XML Mapping
+
+
+https://docs.jboss.org/hibernate/stable/orm/userguide/html_single/Hibernate_User_Guide.html 
+
+
+https://www.dineshonjava.com/hibernate/crud-operations-using-hibernate-3/
+
+
+To download any kind of jar files
+https://mvnrepository.com/
+java2s.com

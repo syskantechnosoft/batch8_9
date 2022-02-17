@@ -1,0 +1,50 @@
+MicroService 
+
+
+Monolith Application - 
+
+SOA - Service Oriented Architecture
+
+Web Service 
+
+With the help of a URL executing a method in a program.
+
+
+REST End points 
+
+hostaddress/api/v1/resource_name  - REST End point
+
+
+get/post/put/delete - http methods
+
+get - Read
+post - Create (Insert)
+put - Update
+delete -Delete 
+
+CRUD 
+
+
+Shopping Site
+
+1) Users 
+2) Products
+3) Order 
+4) Shipping
+5) Rating
+6) Payment
+
+User-Service 
+
+
+Discovery Service - Netflix (Popular Video Streaming Service)
+
+API Gateway
+
+
+NetFlix OSS - Open Source Service
+
+Eureka Server & Eureka Client
+
+Load Balancing using Ribbon
+

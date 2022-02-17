@@ -1,0 +1,18 @@
+K8S - Kubernetes
+
+DevOps Tool, Open Source Container Orchestration Tool
+
+
+Docker - Images, Container
+
+Manage, Automate deployment
+
+Load Balancing, Auto Scaling ( Scale UP/Down)
+
+
+kubectl
+kubeadm
+minikube
+
+
+Installing K8S

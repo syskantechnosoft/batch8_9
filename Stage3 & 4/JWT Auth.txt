@@ -1,0 +1,14 @@
+JWT Authentication - Authorization
+
+JWT - JSON Web Token 
+
+SHA, RSA (256, 512) 
+
+https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en
+
+https://jwt.io/libraries
+
+CORS - Cross Origin Resource Sharing
+CSRF - Cross Site Request Forgery
+
+eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzaXZhIiwiaWF0IjoxNjM2NTQwNzYwLCJleHAiOjE2MzY2MjcxNjB9.lnfr8eROwqF4qPJOmhpBh3xe1ZnxqznpYdCmmcgud9Ccq01QJhF8uFwj_ySoue9p2ebN9wEScbgwwCEglZji-Q

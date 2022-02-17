@@ -1,0 +1,55 @@
+AWS - Amazon Web Service
+
+AWS - Cloud Service Provider
+
+SaaS - Software as a Service (ECS,ECR, Fargate)
+PaaS - Platform as a Service (EC2)
+IaaS - Infrastructure as a Service
+
+amazon.in 
+
+
+Cloud Service Providers
+Microsoft Azure
+Google Cloud Platform (GCP)
+IBM Openshift (RedHat Linux based)
+
+
+Multiple Region & Availability Zones
+
+
+Public cloud (shared resources)
+Private Cloud (dedicated resource)
+
+
+
+intel i5/i7/i9
+AMD 5000/7000
+
+RAM Capacity 8/16/32 GB
+
+Graphics Processor
+
+HDD (SSD/Magnetic HDD)
+
+security 
+
+
+EC2 - Elastic Cloud Compute
+EBS - Elastic BeanStalk /Elastic Block Storage
+ECS - Elastic Container Service
+EKS - Elastic Kubernetes Service
+ECR - Elastic Container Registry
+
+IGW - Internet GateWay
+SG - Security Groups
+S3 - Simple Storage Service
+Fargate
+AMI - Amazon Machine Image
+
+VPC - Virtual Private Cloud
+IB/OB - Inbound /Outbound rules 
+IAM - Id and Access Mgmt
+
+
+

@@ -1,0 +1,49 @@
+Data Structure - Way of Organising the data. 
+
+Arrays - You can store similar type of data in a continuous memory space.
+
+LinkedList
+
+Stack - LIFO - Last In First Out
+Push - Adding data to the stack
+pop - removing a data from the stack
+
+Queue - FIFO - First In First Out 
+Enqueue - Adding the data to Queue
+Dequeue - Removing the data from Queue
+
+Vector
+
+Trees
+
+Set (HashSet)
+
+Map 
+
+LinkList 
+
+Arrays 
+
+Easy Operations in Array
+Adding/Removing data at the end.
+
+Costlier operation in Array
+Adding or Removing data in the middle or in the beginning index
+
+
+Linked List (Single Linked List/Double Link List)
+
+
+Easy Operation
+Adding or removing the element any where other than the last element
+
+Costlier opearation
+Adding or removing element after the middle till the end
+
+
+
+Case Study
+1) Spring Data JPA support (Get the data from MySQL)
+2) Lombok, Testing using mockito
+3) Fetching the data dynamically by joining two or more tables
+

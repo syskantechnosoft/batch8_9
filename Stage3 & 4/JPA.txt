@@ -1,0 +1,194 @@
+JPA - Java Persistance API
+
+Persistance - Is the process of storing the data in a db entity (table)
+
+Serialization - Is the process of storing the state of an object in a permanent storage (flat files- txt,rtf...)
+
+
+Serializable  - Marker Interface
+
+Marker Interface - An Interface with no abstract methods
+
+Functional Interface - A Interface with only one abstract method
+
+@FunctionalInterface 
+
+
+In java, everything is object
+In RDBMS, everything is entity (table, view, functions, procedures, sequences, triggers)
+
+
+JDBC - Java Database Connectivity
+
+JDBC API - Set of interfaces, classes to interact with any db (oracle, mysql, postgres)
+JDBC - Specification 
+
+5 imp Interfaces
+1) Driver (I)
+2) Connection(I)
+3) Statement/PreparedStatement/CallableStatement (I)
+4) ResultSet(I)
+5) DatabaseMetaData/ResultSetMetaData(I) -- To get more info about database/resultset
+
+
+GUI - written in java for any db. 
+
+Connection url   	jdbc:mysql://127.0.0.1:3306/cts
+username		root
+password 		root
+
+Driver classes 		com.mysql.cj.jdbc.Driver
+
+
+syntax for web server
+protocol://connectionurllocation.domain_name:portnumber/resource
+
+syntax for db server
+jdbc:<db_name>://dbserver_ipaddress:port/db_name
+
+http://www.myweb.com/home.html (Client - Server concept  -- Request & Response)
+
+
+MySQL 
+
+1) Connecting using CLI (mysql command line client) 
+
+Enter password: ****
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 35
+Server version: 8.0.26 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2021, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| amdocs             |
+| information_schema |
+| mysql              |
+| performance_schema |
+| sakila             |
+| sys                |
+| world              |
++--------------------+
+7 rows in set (0.03 sec)
+show databases;
+
+mysql> create schema cts;
+
+use cts;
+
+show tables;
+
+quit;
+
+
+2) GUI (MySQL Workbench) 
+
+
+Enter password: ****
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 35
+Server version: 8.0.26 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2021, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| amdocs             |
+| information_schema |
+| mysql              |
+| performance_schema |
+| sakila             |
+| sys                |
+| world              |
++--------------------+
+7 rows in set (0.03 sec)
+
+
+2) GUI - (MySQL Workbench)
+
+3) Using the programming Lang (Java/.Net/Python/Php/Node)
+
+5 Steps for JAVA
+1) Load & Register the driver
+2) Establishing the connection
+3) Creating & Executing Query
+4) Storing & Processing the result
+5) Close all the resources
+
+
+Step 1&2 costlier process - It consumes more time and more memory
+
+JPA Specification 
+
+JPA Implementation 
+1) EclipseLink
+2) Hibernate
+3) iBatis
+4) Generics
+
+
+EntiyManager, EntityManagerFactory  - EclipseLink
+
+Session, SessionFactory - Hibernate
+
+
+session.persist(emp) or session.save(emp)
+
+
+Caching/Connection pooling/
+HQL /JPQL - Database independent query lang
+
+HQL - Hibernate Query Lang
+JPQL - Java Persistance Query Lang
+
+By using Entity Bean class name not using the table names
+
+
+Creating a new JPA project
+
+1) File -> New -> Other -> Jpa(search) -> JPA Project
+2) Name of Project(i/p) - TargetRunTime(jre/server)- JPA Version(2.1)
+3) click next two times
+4) configure jpa & drivers 
+ 4.1) platform - Eclipselink (2.5.x)
+ 4.2) JPA Implementation - click download Library icon.
+  4.2.1)select "Eclipse Link 2.5.2" in the list
+  4.2.2) Accept the licence and click Finish (or)
+   4.2.1a) download eclipse link by using the given link
+https://www.eclipse.org/eclipselink/downloads/index.php#2.5
+  4.2.1 b)Extract the zip and click on user libraries icon
+  4.2.1 c) click "New" button
+  4.2.1 d)EclipseLink2.5.2(i/p) and press ok button.
+  4.2.1 e) add eclipselink.jar file from (<some_location>\eclipselink-2.5.2.v2014\eclipselink\jlib) & other 3 jars from (<some_location>\eclipselink-2.5.2.v2014\eclipselink\jlib\jpa) then click "Apply & Close"
+  4.2.2 a) select the checkbox before "EclipseLink2.5.2" user library
+  4.2.3) Click on "Add connection" link
+  4.2.4) Select "MySQL" from list and click Next
+  4.2.5) Click on "New Driver Definition" icon 
+  4.2.6) Select "MySQL JDBC Driver" version 5.0.1
+  4.2.7) Open the next tab ("JAR List") 
+Download the connector from given url 
+https://dev.mysql.com/downloads/connector/j/
+ 4.2.8) Add the proper dirver jar (C:\Program Files (x86)\MySQL\Connector J 8.0)
+ 4.2.9) In the properties tab, configure db detail
+ 4.2.10) Click ok button
+4.3) click on "Test Connection" button, make sure to get "Ping Succeded" message.
+4.4) Click on Finish.
+5) select "Add driver library to build path" checkbox.
+6) click "finish" button.

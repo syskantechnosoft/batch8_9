@@ -1,0 +1,9 @@
+Communicating between micro services
+
+Eureka Server - Discovery Services 
+
+1) Eureka Server
+2) Auth Service
+3) Movie Catalog
+4) Movie Info
+5) Rating Services

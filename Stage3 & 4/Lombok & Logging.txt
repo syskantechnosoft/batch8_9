@@ -1,0 +1,48 @@
+projectlombok.org
+
+@Data
+@AllArgsConstructor
+@NoArgConstructor
+@Getter
+@Setter
+
+
+Explicit pointer manipulation is not supported in java.
+
+But,
+Implicit pointer manipulation is supported in java.
+
+Employee emp;  ---> Creating a reference to Employee Object. (reference variable)
+
+emp = new Employee(); -- > Object will be created in heap area;
+
+emp is holding the address of object.
+
+emp.hashCode();
+
+stack Area (Volatile memory)
+
+
+
+
+
+Using IDE (Eclipse/STS)
+
+Logging (Log4J, SLF4J)
+
+SLF4J - Simple Logging Facade for JAVA
+
+
+private static Logger logger = LoggerFactory.getLogger (Starter.class);
+
+logger.info(""); - normal colour
+logger.warn(""); - yellow colour
+logger.error("") - red colour
+logger.debug("")
+logger.trace("")
+
+
+@Slf4J
+
+
+log.debug(

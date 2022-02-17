@@ -1,0 +1,72 @@
+Dependency Injection is a Design Pattern
+
+Tablets/Syrups
+
+Inject some medicine. 
+
+
+Spring Framework (DI & IoC)
+
+DI - Dependency Injection
+IoC - Inversion of Control
+
+Design Pattern - It's a proven solution to a particular problem.
+
+You need to travel from One city to another city
+
+Loosely coupling code
+
+
+Spider Man Toy
+
+
+Employee emp = new Employee();
+
+
+For Creating & initializing the objects
+1) constructor(default&parameterized)
+2) setter methods
+3) interface 
+
+Three types of  Injection
+1) Constructor Injection
+2) Setter Injection
+3) Interface Injection
+
+
+@Bean 
+public CustomerConfig getCustomerConfig() {
+
+return new CustomerConfig();
+}
+
+
+
+CustomerConfig customerConfig = new CustomerConfig();
+
+
+@Autowired
+CustomerConfig customerConfig;
+
+
+Employee emp1 = new Employee(1, "abc", "abc@gmail.com");
+
+
+@Autowired
+Employee emp2;
+
+
+
+package io.test;
+public class Customer {
+
+}
+
+
+applicationContext.xml/beans.xml
+
+<bean id="customer" class= "io.test.Customer>
+  <property name="" value="" />
+  ...
+  <constructor-arg> </constructor-arg>
+</bean> 

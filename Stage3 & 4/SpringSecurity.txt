@@ -1,0 +1,57 @@
+1) Add required dependencies in pom.xml
+2) Add necessary annotations (if needed)
+
+Spring Security 
+1) Create a new Spring starter project (spring basic security)
+
+2) Add following dependencies
+  spring web, spring dev tools, spring security
+
+3) Adding spring security dependency will add two end points namely /login and /logout along with login and logout screens(view)
+
+
+Authentication & Authorization 
+
+Authentication - Checking the registration status of customer/employees/dba/admin
+
+Authorization - (Role based Authorization) - Customer, Admin, Employees, DBA
+
+User
+userid/username
+password
+role
+
+
+role
+roleid
+rolename
+
+
+Swagger - API Documentation Tool (Open API Specification)
+
+Swagger2 (springfox) - External Dependency 
+mvnrepository.com
+
+<!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger2 -->
+<dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-swagger2</artifactId>
+    <version>2.9.2</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui -->
+<dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-swagger-ui</artifactId>
+    <version>2.9.2</version>
+</dependency>
+
+
+
+@EnableSwagger2 -- Starter class
+
+
+v2/api-docs  --- API Specification details in JSON
+swagger-ui.html --- API Documentation HTML file (GUI)
+
+
